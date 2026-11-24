@@ -5,7 +5,7 @@ import { resume } from "@/content/resume";
 import { instrumentSerifItalic } from "./editorialFonts";
 import { SectionHeading } from "./SectionHeading";
 
-const WATERFALL_SIZES_IN_CONTAINER_WIDTH_PERCENT = [12.5, 10.5, 8.75, 7.25, 6];
+const WATERFALL_SIZES_IN_CONTAINER_WIDTH_PERCENT = [12.5, 10.75, 9.25, 8, 6.9, 5.9, 5.1, 4.4, 3.8];
 const SMALLEST_SIZE_REM = 1.375;
 
 function useRenderedFontSizesInPixels(elementCount: number) {
@@ -37,7 +37,6 @@ export function InterestsSpecimen() {
         title="Interests"
         className="lg:col-span-3"
         stickOnDesktopWhileSectionScrolls
-        note="Set as a type-specimen waterfall in Instrument Serif: roman and italic alternating, one size step per line."
       />
       <ol ref={listRef} className="flex flex-col border-b border-neutral-900 lg:col-span-9" style={{ containerType: "inline-size" }}>
         {resume.interests.map((interest, interestIndex) => {

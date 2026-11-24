@@ -304,6 +304,16 @@ export const resume: Resume = {
       items: ["Agile/Scrum", "Technical Writing", "System Design", "Test-Driven Development", "CI/CD"],
     },
   ],
-  interests: ["UI/UX Design", "Fashion Design", "Cooking", "Crocheting", "Poetry"],
+  interests: [
+    "UI/UX Design",
+    "Fashion Design",
+    "Game Design",
+    "Psychology",
+    "Security Research",
+    "Cooking",
+    "Baking",
+    "Crocheting",
+    "Poetry",
+  ],
 };
 
